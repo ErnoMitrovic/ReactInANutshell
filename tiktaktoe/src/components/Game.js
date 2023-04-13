@@ -38,7 +38,7 @@ export function Game(){
                     <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} />
                 </div>
                 <div class="game-info">
-                    <ol>
+                    <ol class="moves">
                         {moves}
                     </ol>
                 </div>
